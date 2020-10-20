@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@impact-x/input": "file:./../impact-x/packages/input",
+    "@impact-x/react-button": "file:./../impact-x/packages/react-button",
+    "@impact-x/react-input": "file:./../impact-x/packages/react-input",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",

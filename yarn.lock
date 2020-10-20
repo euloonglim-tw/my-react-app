@@ -1126,6 +1126,48 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@impact-x/color@file:../impact-x/packages/color":
+  version "1.4.2"
+
+"@impact-x/input@file:../impact-x/packages/input":
+  version "1.1.1"
+  dependencies:
+    "@impact-x/styles" "file:../../../Library/Caches/Yarn/v6/npm-@impact-x-input-1.1.1-cc805657-edea-471d-b0c8-6db50cba3b8f-1603166427837/node_modules/@impact-x/styles"
+    "@stencil/core" "^2.0.1"
+
+"@impact-x/react-button@file:../impact-x/packages/react-button":
+  version "1.1.2"
+  dependencies:
+    "@impact-x/styles" "file:../../../Library/Caches/Yarn/v6/npm-@impact-x-react-button-1.1.2-4e01b14c-7369-44de-864d-787be18c4ac5-1603166427853/node_modules/@impact-x/styles"
+    "@stencil/core" "^2.0.1"
+
+"@impact-x/react-input@file:./../impact-x/packages/react-input":
+  version "1.1.2"
+  dependencies:
+    "@impact-x/styles" "file:../../../Library/Caches/Yarn/v6/npm-@impact-x-react-input-1.1.2-c887dd85-4c71-49f0-90c9-963da0f6452e-1603166428301/node_modules/@impact-x/styles"
+    "@stencil/core" "^2.0.1"
+
+"@impact-x/space@file:../impact-x/packages/space":
+  version "0.4.4"
+
+"@impact-x/styles@file:../impact-x/packages/styles":
+  version "1.1.1"
+  dependencies:
+    "@impact-x/tokens" "file:../../../Library/Caches/Yarn/v6/npm-@impact-x-styles-1.1.1-f29db533-72af-46eb-a374-67bf56663274-1603166427843/node_modules/@impact-x/tokens"
+
+"@impact-x/tokens@file:../impact-x/packages/tokens":
+  version "0.5.10"
+  dependencies:
+    "@impact-x/color" "file:../../../Library/Caches/Yarn/v6/npm-@impact-x-tokens-0.5.10-6387feb9-da52-4490-be2c-dc7ad8cb46a8-1603166427846/node_modules/@impact-x/color"
+    "@impact-x/space" "file:../../../Library/Caches/Yarn/v6/npm-@impact-x-tokens-0.5.10-6387feb9-da52-4490-be2c-dc7ad8cb46a8-1603166427846/node_modules/@impact-x/space"
+    "@impact-x/typography" "file:../../../Library/Caches/Yarn/v6/npm-@impact-x-tokens-0.5.10-6387feb9-da52-4490-be2c-dc7ad8cb46a8-1603166427846/node_modules/@impact-x/typography"
+
+"@impact-x/typography@file:../impact-x/packages/typography":
+  version "0.15.5"
+  dependencies:
+    "@impact-x/color" "file:../../../Library/Caches/Yarn/v6/npm-@impact-x-typography-0.15.5-3abdd2e9-3412-4e89-9738-2d120f04e526-1603166427848/node_modules/@impact-x/color"
+    "@impact-x/space" "file:../../../Library/Caches/Yarn/v6/npm-@impact-x-typography-0.15.5-3abdd2e9-3412-4e89-9738-2d120f04e526-1603166427848/node_modules/@impact-x/space"
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
@@ -1312,6 +1354,11 @@
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
   integrity sha512-DetpxZw1fzPD5xUBrIAoplLChO2VB8DlL5Gg+I1IR9b2wPqYIca2WSUxL5g1vLeR4MsQq1NeWriXAVffV+U1Fw==
+
+"@stencil/core@^2.0.1":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.0.3.tgz#8719d3131362076a35b7a7c865de4720766f3f47"
+  integrity sha512-d4qLDN7HKwJEK+ljhknD8azpM4bF49Dv7h5yG3RF+SPo8uozDq3p5ZNj1MgZoRgzh04kXNyG/MKnD8H2QN5YVw==
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"

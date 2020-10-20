@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from '@impact-x/react-button';
+import Input from '@impact-x/react-input';
 
 function App() {
   return (
@@ -18,6 +20,13 @@ function App() {
         >
           Learn React
         </a>
+        <button>I am a button!</button>
+        <Button>i am an impact x button!</Button>
+        <label htmlFor="input-1">All input fields must have a label</label>
+  <p id="helptext-input-1">
+    Any additional help text can be added here but it is not a substitute for a label
+  </p>
+  <Input id="input-auth-username" control-id="input-1" data-testid="default-input-example" placeholder="Placeholder text" ariadescribedby="helptext-input-1"/>
       </header>
     </div>
   );
