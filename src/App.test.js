@@ -10,12 +10,12 @@ test('renders learn react link', () => {
 
 test('renders html button', () => {
   const { getByText } = render(<App />);
-  const buttonElement = getByText(/i am a button!/i);
+  const buttonElement = getByText(/I am a button!/i);
   expect(buttonElement).toBeInTheDocument();
 });
 test('renders impactx button', () => {
   const { getByText } = render(<App />);
-  const impactxButtonElement = getByText(/impact x button/i);
+  const impactxButtonElement = getByText(/I am an impact x button!/i);
   expect(impactxButtonElement).toBeInTheDocument();
 });
 test('renders input field', () => {

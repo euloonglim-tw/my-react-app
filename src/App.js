@@ -18,15 +18,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        Learn React
         </a>
+        <br />
         <button>I am a button!</button>
-        <Button>i am an impact x button!</Button>
+        <Button>I am an impact x button!</Button>
+        <br />
         <label htmlFor="input-1">All input fields must have a label</label>
-  <p id="helptext-input-1">
-    Any additional help text can be added here but it is not a substitute for a label
-  </p>
-  <Input id="input-auth-username" control-id="input-1" data-testid="default-input-example" placeholder="Placeholder text" ariadescribedby="helptext-input-1"/>
+        <p id="helptext-input-1">Any additional help text can be added here but it is not a substitute for a label</p>
+        <Input id="input-auth-username" control-id="input-1" data-testid="default-input-example" placeholder="Placeholder text" ariadescribedby="helptext-input-1"/>
       </header>
     </div>
   );
