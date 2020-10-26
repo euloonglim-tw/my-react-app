@@ -6,24 +6,24 @@ Simple React app to test _Impact-X_ React components. This project was bootstrap
 
 1. Clone the repo using https:
 
-    ### `git clone https://github.com/euloonglim-tw/my-react-app.git`
+    `git clone https://github.com/euloonglim-tw/my-react-app.git`
 
 2. Update the file paths for the following local dependencies in the package.json (or remove if you are not testing these):
 
-    ### `"@impact-x/react-button": "file:./../impact-x/packages/react-button"`
-    ### `"@impact-x/react-input": "file:./../impact-x/packages/react-input"`
+    `"@impact-x/react-button": "file:./../impact-x/packages/react-button"`
+    `"@impact-x/react-input": "file:./../impact-x/packages/react-input"`
 
 3. Update the packages by running:
 
-    ### `yarn`
+    `yarn`
 
 4. Run the tests:
 
-    ### `yarn test`
+    `yarn test`
 
 5. Run the dev mode:
 
-    ### `yarn start`
+    `yarn start`
 
     Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
